@@ -9,28 +9,32 @@ This project demonstrates a basic vulnerability scan of the local Ubuntu system 
 ## 🛠️ Tools Used
 
 - **Scanner:** Nessus Essentials by Tenable
-- **Operating System:** Ubuntu 22.04 LTS
+- **Operating System:** Kali Linux
 - **Scan Type:** Basic Network Scan
-- **Target IP:** `192.168.235.140` (localhost)
+- **Target IP:** `192.168.235.131` (localhost)
 
 ---
 
 ## 🔧 Nessus Installation Steps
 
-**Downloaded Nessus for Ubuntu** from [Tenable Downloads](https://www.tenable.com/downloads/nessus)
-![Ubuntu 64-bit-2025-06-26-18-49-28](https://github.com/user-attachments/assets/cdafd8bd-d4a5-49c3-acd8-259792b52caf)
-![Ubuntu 64-bit-2025-06-26-18-53-20](https://github.com/user-attachments/assets/f8e7a4b9-fdaa-4e2f-b903-7fd6cb954088)
-![Ubuntu 64-bit-2025-06-26-19-08-37](https://github.com/user-attachments/assets/8e009315-86b4-4ed8-a75f-710b8aa5c95c)
-![Ubuntu 64-bit-2025-06-26-19-09-57](https://github.com/user-attachments/assets/510ea243-884a-49c4-abba-d088123487a3)
-![Ubuntu 64-bit-2025-06-26-19-10-15](https://github.com/user-attachments/assets/c9b60a35-d538-4b24-b0b3-d8f887ec6edc)
-![Ubuntu 64-bit-2025-06-26-19-12-13](https://github.com/user-attachments/assets/4bea155f-0c2a-406a-8f85-4fd9a4ea200b)
-![Ubuntu 64-bit-2025-06-26-19-12-25](https://github.com/user-attachments/assets/18458f1b-5ac8-485d-a9bf-6606a04257c6)
-![Ubuntu 64-bit-2025-06-26-19-13-15](https://github.com/user-attachments/assets/37af7a8e-3354-4f57-8014-45de9a4a961b)
-![Ubuntu 64-bit-2025-06-26-19-13-58](https://github.com/user-attachments/assets/ced29120-3140-49e6-ac27-a663c1580a33)
-![Ubuntu 64-bit-2025-06-26-19-18-30](https://github.com/user-attachments/assets/58f893f2-b41c-426f-b1dc-c04fe572d642)
-![Ubuntu 64-bit-2025-06-26-19-18-55](https://github.com/user-attachments/assets/a70c57bb-03b3-4d5c-8b16-16481f364fdf)
-![Ubuntu 64-bit-2025-06-26-19-19-47](https://github.com/user-attachments/assets/8c071964-70d4-4dc0-bc9c-e4be7746c458)
-![Ubuntu 64-bit-2025-06-26-19-21-12](https://github.com/user-attachments/assets/54be240b-83e1-4181-812d-0783c5a2e860)
-![Ubuntu 64-bit-2025-06-26-19-51-42](https://github.com/user-attachments/assets/932ab829-c755-4a43-9daf-97659e2ebf69)
+**Downloaded Nessus for KaliLinux** from [Tenable Downloads](https://www.tenable.com/downloads/nessus)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-15-50-12](https://github.com/user-attachments/assets/791de2ec-db4c-4f31-b503-2191e76eb632)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-15-56-19](https://github.com/user-attachments/assets/c7d8f72b-c3ae-4402-a386-d0ecf3b2d05d)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-15-58-24](https://github.com/user-attachments/assets/a627d021-7b6c-4fdf-aa2e-f48b563fd1be)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-15-58-46](https://github.com/user-attachments/assets/ee888108-557a-49b4-840f-411a85dbdfad)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-15-59-43](https://github.com/user-attachments/assets/ce0ba05b-11db-4793-86af-0509b3fd67db)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-02-16](https://github.com/user-attachments/assets/3c2b17b3-3179-4b12-a5af-a3682911fc36)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-02-46](https://github.com/user-attachments/assets/f16c3977-8723-475f-88a2-a3556b422eeb)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-02-50](https://github.com/user-attachments/assets/7f0ea66e-5066-47fa-a2f4-54bbda83fbc4)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-03-13](https://github.com/user-attachments/assets/8a1cd905-e035-4030-8289-f109bf52e2a1)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-06-22](https://github.com/user-attachments/assets/a7c20bfe-cfa6-4074-8a3e-ef49197191a2)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-06-41](https://github.com/user-attachments/assets/5840b76a-78fd-4773-a735-e28c8ff89f9f)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-06-45](https://github.com/user-attachments/assets/da37f53c-741c-4124-a8a5-8f921ecd8885)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-07-39](https://github.com/user-attachments/assets/57ccf82d-f92f-46c3-9942-490cd6eca559)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-07-49](https://github.com/user-attachments/assets/1e28acb5-5bb2-46f2-8968-dcc0ee6b4f9c)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-08-44](https://github.com/user-attachments/assets/358d7754-5c3f-4b69-91b5-e60e6d312b43)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-16-12-31](https://github.com/user-attachments/assets/9a7415cd-3233-4ba3-b87b-e4293cbbb1f1)
 
-# Nessus-Ubuntu-Scan
+
+
+# Nessus-KaliLinux-Scan
