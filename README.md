@@ -40,5 +40,12 @@ This project demonstrates a basic vulnerability scan of the local KaliLinux syst
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-17-12-51](https://github.com/user-attachments/assets/07185eca-94e0-4ad2-8345-53063c5588be)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-17-15-06](https://github.com/user-attachments/assets/ab26e92b-ff26-4e23-8037-cdb98b9cdc18)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-17-15-31](https://github.com/user-attachments/assets/0eadf99c-5def-406f-a355-9ea83d2b9eca)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-33-00](https://github.com/user-attachments/assets/e37660dc-9791-453f-a5bb-61472b5a98af)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-33-18](https://github.com/user-attachments/assets/33c93b44-3da6-4ef7-acd7-31a129906b8a)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-33-26](https://github.com/user-attachments/assets/b6104da7-acb9-4372-9172-c68caa082970)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-34-10](https://github.com/user-attachments/assets/c196c2d1-f3aa-4122-9af5-b93f7c28afaf)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-34-16](https://github.com/user-attachments/assets/e3f50d36-70f7-404c-8e1a-e4dc6ea431d3)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-34-57](https://github.com/user-attachments/assets/b5e60cc4-170b-45d9-b03f-4e27ff1de0c1)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-36-06](https://github.com/user-attachments/assets/b369e705-ef41-477a-9950-b93ce2bce758)
 
 
