@@ -54,4 +54,9 @@ This project demonstrates a basic vulnerability scan of the local KaliLinux syst
 * **Network Segmentation:** Isolate the Git project server or development environment from other less trusted networks to limit the potential blast radius in case of a compromise.
 * **Firewall Rules:** Implement strict firewall rules to only allow necessary incoming and outgoing traffic to and from the server where the Git project is hosted or managed.
 * **Monitor Logs:** Regularly review system and application logs for suspicious activity, failed login attempts, or unusual resource usage patterns.
-* [cite_start]**Secure SSL/TLS Configuration:** For the "SSL Certificate Cannot Be Trusted" vulnerability[cite: 9], replace the untrusted SSL certificate with one issued by a trusted Certificate Authority (CA) or ensure that the certificate chain is correctly configured and all necessary intermediate certificates are present. If self-signed certificates are used in internal environments, ensure they are properly distributed and trusted by all clients, or consider using an internal CA. This is crucial for securing Git operations over HTTPS.
+* **Secure SSL/TLS Configuration:** For the "SSL Certificate Cannot Be Trusted" vulnerability[cite: 9], replace the untrusted SSL certificate with one issued by a trusted Certificate Authority (CA) or ensure that the certificate chain is correctly configured and all necessary intermediate certificates are present. If self-signed certificates are used in internal environments, ensure they are properly distributed and trusted by all clients, or consider using an internal CA. This is crucial for securing Git operations over HTTPS.
+
+## ✅ Outcome
+- Learned how to install and use Nessus
+- Identified and analyzed system vulnerabilities
+- Documented findings for reporting and remediation
