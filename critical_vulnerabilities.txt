@@ -1,0 +1,53 @@
+Most Critical Vulnerabilities (from Nessus Localhost Scan of 192.168.235.131)
+
+1.  [cite_start]Vulnerability Name: Node.js $18.x<18.19.1/20.x<20.11.1/21.x<21.6.2$ Multiple Vulnerabilities (Wednesday February 14 2024 Security Release) [cite: 9]
+    * [cite_start]**Severity:** CRITICAL [cite: 9]
+    * [cite_start]**CVSS v3.0:** 9.8 [cite: 9]
+    * [cite_start]**VPR Score:** 5.9 [cite: 9]
+    * [cite_start]**EPSS Score:** 0.1041 [cite: 9]
+    * [cite_start]**Plugin ID:** 190856 [cite: 9]
+    * [cite_start]**Affected Software:** Node.js versions 18.x prior to 18.19.1, 20.x prior to 20.11.1, and 21.x prior to 21.6.2. [cite: 9]
+    * **Recommended Fix:** Upgrade Node.js to version 18.19.1 or later (for 18.x branch), 20.11.1 or later (for 20.x branch), or 21.6.2 or later (for 21.x branch). Continuously monitor Node.js security advisories for the latest patched releases.
+    * **Impact on Git Project:** High risk of remote code execution, denial of service, or data compromise if the Git project or its associated tools depend on vulnerable Node.js versions on this host.
+
+2.  [cite_start]Vulnerability Name: PostgreSQL $11.x<11.22/12.x<12.17/13.x<13.13/14.x<14.10/15.x<15.5/16.x<16.1$ Multiple Vulnerabilities [cite: 9]
+    * [cite_start]**Severity:** HIGH [cite: 9]
+    * [cite_start]**CVSS v3.0:** 8.8 [cite: 9]
+    * [cite_start]**VPR Score:** 6.7 [cite: 9]
+    * [cite_start]**EPSS Score:** 0.0628 [cite: 9]
+    * [cite_start]**Plugin ID:** 185732 [cite: 9]
+    * [cite_start]**Affected Software:** PostgreSQL versions 11.x prior to 11.22, 12.x prior to 12.17, 13.x prior to 13.13, 14.x prior to 14.10, 15.x prior to 15.5, and 16.x prior to 16.1. [cite: 9]
+    * **Recommended Fix:** Upgrade PostgreSQL to a patched version (e.g., 11.22, 12.17, 13.13, 14.10, 15.5, 16.1, or newer stable releases).
+    * **Impact on Git Project:** Significant risk of data breach, unauthorized database access, or denial of service if the Git project's backend or critical components rely on this PostgreSQL instance.
+
+3.  [cite_start]Vulnerability Name: Node.js $18.x<18.20.1/20.x<20.12.1/21.x<21.7.2$ Multiple Vulnerabilities (Wednesday, April 3, 2024 Security Releases) [cite: 9]
+    * [cite_start]**Severity:** HIGH [cite: 9]
+    * [cite_start]**CVSS v3.0:** 8.2 [cite: 9]
+    * [cite_start]**VPR Score:** 5.0 [cite: 9]
+    * [cite_start]**EPSS Score:** 0.6865 [cite: 9]
+    * [cite_start]**Plugin ID:** 192945 [cite: 9]
+    * [cite_start]**Affected Software:** Node.js versions 18.x prior to 18.20.1, 20.x prior to 20.12.1, and 21.x prior to 21.7.2. [cite: 9]
+    * **Recommended Fix:** Upgrade Node.js to version 18.20.1 or later (for 18.x branch), 20.12.1 or later (for 20.x branch), or 21.7.2 or later (for 21.x branch).
+    * **Impact on Git Project:** Similar to the other Node.js vulnerability, this poses a high risk to applications and services running on Node.js on the host.
+
+4.  [cite_start]Vulnerability Name: PostgreSQL $13.x<13.19/14.x<14.16/15.x<15.11/16.x<16.5/17.x<17.3~SQLi$ [cite: 9]
+    * [cite_start]**Severity:** HIGH [cite: 9]
+    * [cite_start]**CVSS v3.0:** 8.1 [cite: 9]
+    * [cite_start]**VPR Score:** 9.5 [cite: 9]
+    * [cite_start]**EPSS Score:** 0.8363 [cite: 9]
+    * [cite_start]**Plugin ID:** 216586 [cite: 9]
+    * [cite_start]**Affected Software:** PostgreSQL versions 13.x prior to 13.19, 14.x prior to 14.16, 15.x prior to 15.11, 16.x prior to 16.5, and 17.x prior to 17.3. [cite: 9]
+    * **Recommended Fix:** Upgrade PostgreSQL to a patched version (e.g., 13.19, 14.16, 15.11, 16.5, 17.3, or newer stable releases).
+    * **Impact on Git Project:** High risk of SQL Injection, leading to unauthorized data access, modification, or even control over the database if your Git project relies on this PostgreSQL instance.
+
+5.  [cite_start]Vulnerability Name: Node.js $18.x<18.20.4/20.x<20.15.1/22.x<22.4.1$ Multiple Vulnerabilities (Monday, July 8, 2024 Security Releases) [cite: 9]
+    * [cite_start]**Severity:** HIGH [cite: 9]
+    * [cite_start]**CVSS v3.0:** 8.1 [cite: 9]
+    * [cite_start]**VPR Score:** 6.7 [cite: 9]
+    * [cite_start]**EPSS Score:** 0.0074 [cite: 9]
+    * [cite_start]**Plugin ID:** 201969 [cite: 9]
+    * [cite_start]**Affected Software:** Node.js versions 18.x prior to 18.20.4, 20.x prior to 20.15.1, and 22.x prior to 22.4.1. [cite: 9]
+    * **Recommended Fix:** Upgrade Node.js to version 18.20.4 or later (for 18.x branch), 20.15.1 or later (for 20.x branch), or 22.4.1 or later (for 22.x branch).
+    * **Impact on Git Project:** Continued high risk for applications and services dependent on Node.js on the host due to unpatched vulnerabilities.
+
+To save this, you can copy the text above and paste it into a new file on your computer, then save it as `critical_vulnerabilities.txt`.
