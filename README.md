@@ -35,6 +35,10 @@ This project demonstrates a basic vulnerability scan of the local KaliLinux syst
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-16-08-44](https://github.com/user-attachments/assets/358d7754-5c3f-4b69-91b5-e60e6d312b43)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-16-12-31](https://github.com/user-attachments/assets/9a7415cd-3233-4ba3-b87b-e4293cbbb1f1)
 
+## Nessus-KaliLinux-Scan
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-07-30](https://github.com/user-attachments/assets/602b9d61-eec3-41d6-a60b-446d67602a3b)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-12-51](https://github.com/user-attachments/assets/07185eca-94e0-4ad2-8345-53063c5588be)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-15-06](https://github.com/user-attachments/assets/ab26e92b-ff26-4e23-8037-cdb98b9cdc18)
+![kali-linux-2024 4-vmware-amd64-2025-06-27-17-15-31](https://github.com/user-attachments/assets/0eadf99c-5def-406f-a355-9ea83d2b9eca)
 
 
-# Nessus-KaliLinux-Scan
