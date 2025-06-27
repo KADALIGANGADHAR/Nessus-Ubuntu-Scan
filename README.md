@@ -48,4 +48,10 @@ This project demonstrates a basic vulnerability scan of the local KaliLinux syst
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-17-34-57](https://github.com/user-attachments/assets/b5e60cc4-170b-45d9-b03f-4e27ff1de0c1)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-17-36-06](https://github.com/user-attachments/assets/b369e705-ef41-477a-9950-b93ce2bce758)
 
-
+## Mitigations for Found Vulnarabilities 
+* **Regular Patching:** Implement a routine for regular patching and updating of all software on the host machine, especially those directly involved with the Git project (e.g., Node.js, Python, PostgreSQL, web servers). This includes the operating system itself.
+* **Principle of Least Privilege:** Ensure that the user accounts and services running the Git project components (e.g., Git daemon, webhooks, CI/CD agents) operate with the minimum necessary permissions required for their function.
+* **Network Segmentation:** Isolate the Git project server or development environment from other less trusted networks to limit the potential blast radius in case of a compromise.
+* **Firewall Rules:** Implement strict firewall rules to only allow necessary incoming and outgoing traffic to and from the server where the Git project is hosted or managed.
+* **Monitor Logs:** Regularly review system and application logs for suspicious activity, failed login attempts, or unusual resource usage patterns.
+* [cite_start]**Secure SSL/TLS Configuration:** For the "SSL Certificate Cannot Be Trusted" vulnerability[cite: 9], replace the untrusted SSL certificate with one issued by a trusted Certificate Authority (CA) or ensure that the certificate chain is correctly configured and all necessary intermediate certificates are present. If self-signed certificates are used in internal environments, ensure they are properly distributed and trusted by all clients, or consider using an internal CA. This is crucial for securing Git operations over HTTPS.
