@@ -1,8 +1,8 @@
-# 🔍 Nessus Vulnerability Scan – Ubuntu System
+# 🔍 Nessus Vulnerability Scan – KaliLinux System
 
 ## 📌 Project Overview
 
-This project demonstrates a basic vulnerability scan of the local Ubuntu system (`192.168.235.140`) using **Nessus Essentials**. The goal was to identify weaknesses in services running on the host and document findings with screenshots and reports.
+This project demonstrates a basic vulnerability scan of the local KaliLinux system (`192.168.235.131`) using **Nessus Essentials**. The goal was to identify weaknesses in services running on the host and document findings with screenshots and reports.
 
 ---
 
@@ -17,7 +17,7 @@ This project demonstrates a basic vulnerability scan of the local Ubuntu system 
 
 ## 🔧 Nessus Installation Steps
 
-**Downloaded Nessus for KaliLinux** from [Tenable Downloads](https://www.tenable.com/downloads/nessus)
+**Downloaded Nessus for KaliLinux** from [Tenable Downloads](https://www.tenable.com/products/nessus/nessus-essentials)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-15-50-12](https://github.com/user-attachments/assets/791de2ec-db4c-4f31-b503-2191e76eb632)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-15-56-19](https://github.com/user-attachments/assets/c7d8f72b-c3ae-4402-a386-d0ecf3b2d05d)
 ![kali-linux-2024 4-vmware-amd64-2025-06-27-15-58-24](https://github.com/user-attachments/assets/a627d021-7b6c-4fdf-aa2e-f48b563fd1be)
